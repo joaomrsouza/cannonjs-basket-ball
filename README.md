@@ -90,8 +90,14 @@ As melhorias a serem implementadas em uma oportunidade futura giram em torno de 
 
 ## Imagens do Projeto:
 
-Sistema Solar:
-![Sistema Solar](Link)
+Visão do jogo:
+![Imagem 1](https://github.com/joaomrsouza/cannonjs-basket-ball/blob/main/assets/imagens/imagem%201.jpg)
+
+Representação das maçãs como partículas aleatórias:
+![Imagem 2](https://github.com/joaomrsouza/cannonjs-basket-ball/blob/main/assets/imagens/imagem%202.jpg)
+
+Animação exibida após a coleta das maçãs e contador de pontos:
+![Imagem 3](https://github.com/joaomrsouza/cannonjs-basket-ball/blob/main/assets/imagens/imagem%203.jpg)
 
 ## Feedback:
 
