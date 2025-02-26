@@ -10,64 +10,66 @@ O presente trabalho trata-se de uma representação de um jogo de cesta de bolin
 Clone o projeto
 
 ```bash
-  git clone https://github.com/joaomrsouza/threejs-solar-system.git
+  git clone https://github.com/joaomrsouza/cannonjs-basket-ball.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd threejs-solar-system
+  cd cannonjs-basket-ball
+```
+
+Instale as dependências
+
+```bash
+  npm i
 ```
 
 Inicie o servidor
 
 ```bash
-  npx serve
+  npm run dev
 ```
-
-Alternativa ao npm
-
-Instalar a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para VSCode
-
-Abrir o arquivo index.html com a extensão
 
 Para o manuseio do jogo, basta arrastar o mouse para movimentar a caixa/cesta no eixo horizontal, na qual ela irá coletar ou colidir com os objetos (maçãs) dispostas em queda livre, partindo de cima para baixo na tela. É possível também observar em perspectiva/visão espacial os objetos interagindo entre si.
 
 
 ## Tecnologias Utilizadas:
+
 - JavaScript
 - Three.js
 - Cannon.js
+- Shader Particle Engine (SPE)
+
 ## Características do Projeto:
 
 - Representação do jogo de cesta e objetos;
 - Dinâmica de movimentação;
-- Simulação de coletas e colisões de ítens;
-- Direcionamneto de orientação da cesta;
+- Simulação de coletas e colisões de itens;
+- Direcionamento de orientação da cesta;
 - Efeitos visuais e contador de pontos;
-
 
 ## Etapas do Projeto:
 
 O desenvolvimento do projeto foi estruturado em três etapas, a serem seguidas durante o fluxo de trabalho com a premissa de levantamento de requisitos, desenvolvimento/modelagem e por fim a validação, feita por meio da análise de requisitos e em reuniões de alinhamento entre o time. O workflow do projeto ficou distribuído da seguinte forma:
 
 - Etapa 1: Levantamento dos Requisitos;
-    - Escolha do projeto dentre as opções;
-    - Compreensão das especificações do projeto, com base no documento descritivo;
-    - Levantamento dos requisitos e tecnologias necessárias;
-    - Separação em equipe das tarefas e sprints de desenvolvimento;
-    - Criação de documentações e registros;
+  - Escolha do projeto dentre as opções;
+  - Compreensão das especificações do projeto, com base no documento descritivo;
+  - Levantamento dos requisitos e tecnologias necessárias;
+  - Separação em equipe das tarefas e sprints de desenvolvimento;
+  - Criação de documentações e registros;
 
 - Etapa 2: Desenvolvimento e Modelagem do Projeto;
-    - Criação de estruturas de código para as interações;
-    - Definição das funcionalidades;
-    - Adição de controles para interação do usuário;
+  - Criação de estruturas de código para as interações;
+  - Definição das funcionalidades;
+  - Adição de controles para interação do usuário;
 
 - Etapa 3: Refinamentos e Validação;
-    - Implementação de pequenos ajustes;
-    - Review final e alinhamento com a equipe;
-    - Finalização dos registros e documentação;
-    - Entrega e apresentação do projeto;
+  - Implementação de pequenos ajustes;
+  - Review final e alinhamento com a equipe;
+  - Finalização dos registros e documentação;
+  - Entrega e apresentação do projeto;
 
 ## Aprendizados:
 
@@ -81,6 +83,7 @@ As melhorias a serem implementadas em uma oportunidade futura giram em torno de 
 ## Professor da Disciplina:
 
 - Iális Cavalcante de Paula Júnior - ialis@ufc.br
+
 ## Equipe:
 
 - João Marcos Rocha Souza - [@joaomrsouza](https://github.com/joaomrsouza)
@@ -101,10 +104,10 @@ Animação exibida após a coleta das maçãs e contador de pontos:
 
 ## Feedback:
 
-Agradecemos qualquer Feedback ou sugestões de melhorias sobre o projeto! 
+Agradecemos qualquer Feedback ou sugestões de melhorias sobre o projeto!
 
 ## Referências:
 
- - [Documentação Three.js](https://threejs.org/docs/index.html#manual/en/introduction)
+- [Documentação Three.js](https://threejs.org/docs/index.html#manual/en/introduction)
 
- - [Documentação Cannon.js](https://pmndrs.github.io/cannon-es/docs/index.html)
+- [Documentação Cannon.js](https://pmndrs.github.io/cannon-es/docs/index.html)
